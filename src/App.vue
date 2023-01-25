@@ -1,10 +1,18 @@
 <script>
 import Home from "./components/Home.vue";
 import Header from "./components/Header.vue";
+import Button from "./components/Button.vue";
+import Section from "./components/Section.vue";
+import Footer from "./components/Footer.vue";
+import CarouselPage from "./Pages/CarouselPage.vue";
 export default {
   components: {
     Home,
     Header,
+    Section,
+    Button,
+    Footer,
+    CarouselPage,
   },
 };
 </script>
@@ -12,6 +20,9 @@ export default {
 <template>
   <Home />
   <Header />
+  <Section />
+  <Footer />
+  <CarouselPage />
 </template>
 
 <style scoped>
